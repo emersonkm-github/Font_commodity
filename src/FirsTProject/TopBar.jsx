@@ -18,7 +18,7 @@ export default function TopBar() {
         }}>
           <Typography variant="h2" noWrap sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }} component="div">
             <div className="id">
-              財富
+              富來
             </div>
           </Typography>
 
