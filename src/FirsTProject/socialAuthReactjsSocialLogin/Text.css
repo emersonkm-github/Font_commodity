@@ -1,0 +1,59 @@
+.moving-text {
+  animation: moveRightLeft 10s infinite;
+  color: red;
+}
+
+@keyframes moveRightLeft {
+  0% {
+    transform: translateX(-200px) rotateY(360deg);
+    color: red;
+  }
+  50% {
+    transform: translateX(200px);
+    color: blue;
+  }
+  100% {
+    transform: translateX(-200px) rotateZ(360deg);
+    color: green;
+  }
+}
+
+.size-change {
+animation:size 5s infinite;
+}
+
+@keyframes size {
+50%{transform: scale(0.5 , 0.5)
+  rotateX(360deg);}
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.member-table {
+  border-collapse: collapse;
+}
+
+.member-table th,
+.member-table td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.tab {
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.tab:hover {
+  background-color: #ea80fc;
+  border-radius: 9999px;
+  /* 添加其他悬停样式 */
+}
